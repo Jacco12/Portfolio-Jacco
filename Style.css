@@ -1,0 +1,517 @@
+/* General */
+@font-face {
+    font-family: 'header';
+    src: url(./assests/fonts/unicaone-regular.ttf);
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(./assests/fonts/DidactGothic-Regular.ttf);
+}
+
+
+body {
+    background-color:rgb(65, 67, 106);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'header';
+}
+
+p {
+    font-size: 18px;
+    font-family: 'text';
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15em;
+    margin-top: 2em;
+    font-size: 18px;
+    margin-left: 4em;
+}
+
+.header h2:hover {
+    color:rgb(246, 70, 104);
+}
+
+.header h2 {
+    margin-bottom: 4px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.location-indicator1 {
+    background-color:rgb(246, 70, 104);
+    height: 3px;
+    width: 60px;
+}
+
+
+
+/* Top part/title part */
+.title {
+    color:  rgb(246, 70, 104);
+    text-align: center;
+    font-size: 80pt;
+    margin-bottom: 0;
+}
+
+
+.title-shape {
+    background-color: white;
+    width: 12em;
+    height: 0.5em;
+    margin: auto;
+    margin-bottom: 10em;
+}
+
+
+.work-block {
+    background-color:rgb(41, 43, 77);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20em;
+}
+
+.work-items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.work-item {
+    border:2px solid rgb(246, 70, 104) ;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin: 3em;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:rgb(246, 70, 104);
+    font-size: 30px;
+}
+
+.categorie-item {
+    color:rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.work-link {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    border: solid;
+    border-color:rgb(246, 70, 104);
+    border-radius: 10px;
+    margin-left: 22em;
+    margin-right: 22em;
+}
+
+.work-link:hover {
+    background-color:rgb(246, 70, 104);
+    border-color:rgb(41, 43, 77)
+}
+
+.categorie-item-text {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.mijnwerk-homepage {
+    display: flex;
+}
+
+.design-example {
+    max-width: 500px;
+}
+
+.arrow {
+    width: 500px;
+    color:rgb(246, 70, 104);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20em;
+}
+
+.arrow:hover {
+    color: white;
+}
+
+.categories {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-color:rgb(41, 43, 77);
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+.contact-div {
+    background-color:rgb(41, 43, 77);
+    width: 800px;
+    height: 62.5em;
+}
+
+.contact-div a {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    margin-left: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 0.5em;
+    color: white;
+    border: solid;
+    border-color:rgb(246, 70, 104);
+    border-radius: 10px;
+}
+
+.contact-button:hover {
+    border-color:rgb(41, 43, 77);
+    color: white;
+    background-color:rgb(246, 70, 104)
+}
+
+.contact-header {
+    color:rgb(246, 70, 104);
+    text-align: center;
+    font-size: 70px;
+    margin-left: 10px;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.profile-pic {
+    width: 800px;
+    background-color:rgb(246, 70, 104)
+}
+
+
+
+/* Mijn werk page */
+.html-css-js-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.link-test {
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em;
+    border-radius: 10px;
+    border: solid;
+    border-color:rgb(246, 70, 104);
+    border-radius: 10px;
+    border-width: 1.5px;
+    color: white;
+}
+
+.link-test:hover {
+    background-color:rgb(246, 70, 104);
+    color: white;
+}
+
+.link-to-website-game {
+    text-decoration: none;
+    color:rgb(65, 67, 106)
+}
+
+.htlm-css-js-subheader {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.htlm-css-js-text {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5em;
+}
+
+.work-headers {
+    color:rgb(246, 70, 104);
+    margin-bottom: 2em;
+    font-size: 50px;
+    text-align: center;
+    margin: 5px;
+    border: solid;
+    border-top-width: 15px;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.work-subheader {
+    color:white;
+    font-size: 30px;
+    margin-left: 25px
+}
+
+.abtwork-text {
+    color: white;
+    width: 55em;
+    margin-right: 50px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.recepe-cards-section {
+    margin-bottom: 5em;
+}
+
+.recepe-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.recepe-cards img {
+    width: 200px;
+    padding: 0.5em;
+}
+
+.stagework-div {
+    display: flex;
+    margin-bottom: 4em;
+    justify-content: center;
+}
+
+
+.stageverslag-div {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 99%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-self: start;
+    margin-bottom: 4em;
+}
+
+.stageverslag-img {
+    width: 300px;
+}
+
+.content-img {
+    width: 20%;
+}
+
+.hhk-img {
+    width: 180px;
+}
+
+.hhk-section {
+    margin-bottom: 10em;
+}
+
+.drawings-div img {
+    width: 300px;
+    padding: 1em;
+}
+
+.drawings-div {
+    display: flex
+}
+
+.drawing-smalldiv {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
+
+/* Over mij page */
+.overmij-text {
+    margin-bottom: 12em;
+    text-align: left;
+    font-size: 15px;
+}
+
+.abtme-titletext {
+    text-align: center;
+    color: white;
+    margin-bottom: 15em;
+}
+
+.abtme-div {
+    background-color: rgb(41, 43, 77);
+    border-radius: 20px;
+    height: 350px;
+    padding: 3em;
+    margin-bottom: 8em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.abtme-div h2 {
+    color:white;
+    font-size: 50px;
+}
+
+.abtme-div p {
+    width: 400px; 
+    color:rgb(151, 153, 184);
+}
+
+.skillsets {
+    text-align: center;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 3em;
+}
+
+.skillsets h2 {
+    color:rgb(246, 70, 104)
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills p {
+    padding: 0.5em;
+    color: white;
+    background-color:rgb(65, 67, 106);
+    border: solid;
+    border-color:rgb(246, 70, 104);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.abtme-shape p {
+    color:white;
+    font-family: 'text';
+    font-size: 15px;
+}
+
+.abtme-shape div {
+    display: flex;
+    width: 500px;
+}
+
+.abtme-shape div p {
+    border: solid;
+    border-color:rgb(246, 70, 104);
+    width: 400px;
+    margin-right: 2em;
+    padding: 0.5em;
+}
+
+.abtme-shape h2 {
+    color:rgb(246, 70, 104);
+    font-size: 50px;
+}
+
+
+
+
+
+
+/* Background Imgaes */
+
+.skinny-line {
+    position: absolute;
+}
+
+
+
+
+/* My experiences */
+
+.myexp-section {
+    margin: 2em;
+}
+
+.myexp-section h3 {
+    font-size: 22px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+
+.myexp-header {
+    color: white;
+    background-color:rgb(246, 70, 104);
+    font-size: 40px;
+    border-radius: 10px;
+    width: 100px;
+    padding: 0.5em;
+    margin-bottom: 15px;
+}
+
+.myexp-header-right {
+    color: white;
+    background-color:rgb(246, 70, 104);
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: right;
+    margin-left: 30em;
+    margin-bottom: 15px;
+}
+
+.myexp-subheader {
+    color: white;
+    font-size: 20px;
+}
+
+.myexp-subheader-right {
+    text-align: right;
+    color: white;
+}
+
+.myexp-text {
+    color: white;
+    font-size: 16px;
+    width: 600px
+}
+
+
+.myexp-text-right {
+    text-align: right;
+    color: white;
+    margin-left: 800px;
+
+}
+
